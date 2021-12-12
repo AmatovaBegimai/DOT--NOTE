@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/scan">
+
+    <fragment
+        android:id="@+id/scan"
+        android:name="com.example.dot_note.Scan"
+        android:label="fragment_scan"
+        tools:layout="@layout/fragment_scan" />
+    <fragment
+        android:id="@+id/note"
+        android:name="com.example.dot_note.Note"
+        android:label="fragment_note"
+        tools:layout="@layout/fragment_note" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.dot_note.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>
